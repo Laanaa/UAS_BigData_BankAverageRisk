@@ -1,5 +1,7 @@
 NAMA : MAULANA MALIK IBRAHIM
+
 NIM : 1941720055
+
 
 Project : Menganalisis kumpulan data pinjaman
 
@@ -9,12 +11,19 @@ Problem statement : Temukan jumlah kasus per lokasi, kemudian hitung dan tampilk
 
 Hasil :
 LOKASI	PERSETANSE RISK (%)
+
 Ahedabad	9.928571428571429
+
 Chandigarh	10.241379310344827
+
 Chennai	9.86046511627907
+
 Delhi	9.8793103827585
+
 Gurgaon	10.069444444444445
+
 Mumbai	10.127906976744185
+
 Noida	10.13
 
 
