@@ -11,8 +11,12 @@ public class MyMapper extends Mapper<LongWritable, Text,Text,DoubleWritable>{
         String line = value.toString();
         String[] linePart = line.split(",");
 
+        // masalah avg risk untuk keseluruhan
         Double risk = Double.parseDouble(linePart[7]);
 
-        con.write(new Text(""), new DoubleWritable(risk));
+        //masalah avg risk per lokasi
+        String loc = linePart[8].toString();
+
+        con.write(new Text(loc), new DoubleWritable(risk));
     }
 }

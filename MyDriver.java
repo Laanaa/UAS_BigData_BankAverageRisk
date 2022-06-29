@@ -13,7 +13,7 @@ public class MyDriver {
         // TODO Auto-generated method stub
         Configuration conf = new Configuration();
 
-        Job job = new Job(conf,"Calculate Avg Risk");
+        Job job = new Job(conf,"Calculate Avg Risk per Location");
         job.setJarByClass(MyDriver.class);
         job.setMapperClass(MyMapper.class);
         job.setMapOutputKeyClass(Text.class);
