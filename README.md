@@ -3,14 +3,14 @@ NAMA : MAULANA MALIK IBRAHIM
 NIM : 1941720055
 
 
-Project : Menganalisis kumpulan data pinjaman
+Project : Menganalisis kumpulan data pinjaman bank
 
 Data : Kumpulan data yang tersedia dapat diakses oleh umum yaitu berisi perincian lengkap semua pinjaman yang dikeluarkan, termasuk status pinjaman (saat ini, terlambat, penuh, dibayar, dll.) dan terdapat informasi pembayaran terbaru.
 
 Problem statement : Temukan jumlah kasus per lokasi, kemudian hitung dan tampilkan skor risiko rata-rata per lokasi.
 
 Hasil :
-LOKASI	PERSETANSE RISK (%)
+LOKASI	PERSENTASE RISK (%)
 
 Ahedabad	9.928571428571429
 
